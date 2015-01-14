@@ -8,18 +8,18 @@ python v3  and sqliete3 and its python interface is necessary.
 
 Usage:
 0. make .ID  that is sha1 hash  in the directory that contains data to make input files. 
-1. $prog -createdb        count=0
-2. $prog -init            status=('init",'idle')
+1. $prog -createdb        set count=0
+2. $prog -init            set status=('init",'idle')
   search sub directories that have .ID
-3. $prog -send            status=('submitted','idle'), make input data with material_kind and count
+3. $prog -send            set status=('submitted','idle'), make input data with material_kind and count
  send files to calculation servers and add a control file to submit and submit them. 
  $prog doesn't care about the result and status of the calculation servers.
 
  file_status=('finished') if the job is really finished
  receive files from the calculation servers 
 
-4. $prog -updatestatus    status=('submitted','finished'), reflect file_status from the files to the database. 
-5. $prog -recv            status=('calculated','finished') or (('new','idle') and  count++)
+4. $prog -updatestatus    set status=('submitted','finished'), reflect file_status from the files to the database. 
+5. $prog -recv            set status=('calculated','finished') or (('new','idle') and  count++)
 goto 3 if not (calculted","finished")
 
 You can purge unnecessary files anytime
