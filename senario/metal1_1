@@ -1,0 +1,6 @@
+number_max_iteration = 500
+kerker_apre = 1.5
+kerker_g0sq = 1.5
+kerker_amixmin = 0.0001
+pulay_history =  20
+add_after file_begin

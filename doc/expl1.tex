@@ -1,0 +1,211 @@
+\documentclass[a4paper]{article}
+
+\usepackage[top=30truemm,bottom=30truemm,left=25truemm,right=25truemm]{geometry}
+
+\title{Hands-on course of autcc ver.11}
+\date{\today}
+\author{Hiori Kino}
+
+\begin{document}
+
+\maketitle 
+
+\section{software}
+
+\begin{itemize}
+\item python
+\item sqlite3
+\item sqlite3 python interface
+\end{itemize}
+are necessary.
+
+\section{Assumption}
+Assumptions of the environment.
+\begin{itemize}
+\item The local PC handles DB.
+\item The local PC can't handle the computational server directly.
+\item The computational server uses the job scheduler, that the local PC can'd submit jobs directly.
+\end{itemize}
+Remeber that the facts of the output of the program,
+\begin{itemize}
+\item The errors of the program is different of the errors of the job scheduler.
+\item The errors of the program is different of the result of the program, e.g., whether the SCF is achieved or not.
+\end{itemize}
+
+\section{directory structure}
+
+\begin{itemize}
+\item inputdata\/ 
+\item calcdata\/
+\end{itemize}
+
+\begin{verbatim}
+$ ls inputdata
+Fdd2
+$ ls inputdata/Fdd2
+xsf_2_i0040  xsf_2_i0042  xsf_2_i0044  xsf_2_i0046  xsf_2_i0048
+xsf_2_i0041  xsf_2_i0043  xsf_2_i0045  xsf_2_i0047  xsf_2_i0049
+$ ls -a inputdata/Fdd2/xsf_2_i0040
+.  ..  3.xsf  input_scf.txt  output_scf.txt
+\end{verbatim}
+
+\section{add .ID}
+hash.py can add hex digest.
+\begin{verbatim}
+$ pwd
+/home2/kino/tmp/autcc/inputdata/Fdd2
+$ ls
+xsf_2_i0040  xsf_2_i0042  xsf_2_i0044  xsf_2_i0046  xsf_2_i0048
+xsf_2_i0041  xsf_2_i0043  xsf_2_i0045  xsf_2_i0047  xsf_2_i0049
+$ for n in xsf_2_i004*; do (cd $n; ../../../hash.py $PWD > .ID);done
+$ ls -a xsf_2_i0040
+.  ..  .ID  3.xsf  input_scf.txt  output_scf.txt
+$ cat xsf_2_i0040/.ID 
+1b16160e003f0b8ed8541db046880ac11267baf1
+\end{verbatiom}
+
+\section{create DB}
+\begin{verbatim}
+$ ./db11.py
+./db11.py  <options>
+<options>
+	-createdb
+	-init
+	-send
+	-updatestatus
+	-recv
+	-purge
+
+	-status
+	-history
+	-help
+$ ./db11.py -createdb
+mode= createdb
+createdb done
+\end{verbatim}
+rundata.sqlite3 is made.
+
+\section{register directries in DB}
+\begin{verbatim}
+$ ./db11.py -init
+mode= createdb
+createdb done
+$ sqlite3 rundata.sqlite3
+SQLite version 3.8.2 2013-12-06 14:53:30
+Enter ".help" for instructions
+Enter SQL statements terminated with a ";"
+sqlite> select * from materialdata;
+9d47efe361cb99a7b869a3d2fc6dd470d2fe3dc9|inputdata/Fdd2/xsf_2_i0041|metal1|new|0|idle|2015-05-28 23:14:19|2015-05-28 23:14:19|||
+4435a45b0ef7ca11cce11ce420c2a8a87aae7a83|inputdata/Fdd2/xsf_2_i0049|metal1|new|0|idle|2015-05-28 23:14:19|2015-05-28 23:14:19|||
+1b16160e003f0b8ed8541db046880ac11267baf1|inputdata/Fdd2/xsf_2_i0040|metal1|new|0|idle|2015-05-28 23:14:19|2015-05-28 23:14:19|||
+5b600d251de1acf57a02e5db5ab2bee282ff8aac|inputdata/Fdd2/xsf_2_i0044|metal1|new|0|idle|2015-05-28 23:14:19|2015-05-28 23:14:19|||
+71198b9bf3de59a7e47325988f2282321b05470b|inputdata/Fdd2/xsf_2_i0043|metal1|new|0|idle|2015-05-28 23:14:19|2015-05-28 23:14:19|||
+7287588e927eefadf94f7daf67bb663c29357005|inputdata/Fdd2/xsf_2_i0047|metal1|new|0|idle|2015-05-28 23:14:19|2015-05-28 23:14:19|||
+bda2dcf7090fcf8fe1b63a49174881c9aa7ad546|inputdata/Fdd2/xsf_2_i0046|metal1|new|0|idle|2015-05-28 23:14:19|2015-05-28 23:14:19|||
+1178f9860baff27f5f6ec857ca0b8f53072f81d2|inputdata/Fdd2/xsf_2_i0042|metal1|new|0|idle|2015-05-28 23:14:19|2015-05-28 23:14:19|||
+947390dc28b02f2f4b66a37266615ac2fa0e6953|inputdata/Fdd2/xsf_2_i0045|metal1|new|0|idle|2015-05-28 23:14:19|2015-05-28 23:14:19|||
+751aa565288af342b02e4cec013f0a3e02f2751d|inputdata/Fdd2/xsf_2_i0048|metal1|new|0|idle|2015-05-28 23:14:19|2015-05-28 23:14:19|||
+\end{verbatim}
+The directries that have a .ID file is added to the DB.
+
+\section{make inputdata}
+\begin{verbatim}
+$ ./db11.py -send
+mode= send
+make 10 directories
+calcdata/9d47efe361cb99a7b869a3d2fc6dd470d2fe3dc9.0/input_scf.txt  is changed.
+calcdata/4435a45b0ef7ca11cce11ce420c2a8a87aae7a83.0/input_scf.txt  is changed.
+calcdata/1b16160e003f0b8ed8541db046880ac11267baf1.0/input_scf.txt  is changed.
+calcdata/5b600d251de1acf57a02e5db5ab2bee282ff8aac.0/input_scf.txt  is changed.
+calcdata/71198b9bf3de59a7e47325988f2282321b05470b.0/input_scf.txt  is changed.
+calcdata/7287588e927eefadf94f7daf67bb663c29357005.0/input_scf.txt  is changed.
+calcdata/bda2dcf7090fcf8fe1b63a49174881c9aa7ad546.0/input_scf.txt  is changed.
+calcdata/1178f9860baff27f5f6ec857ca0b8f53072f81d2.0/input_scf.txt  is changed.
+calcdata/947390dc28b02f2f4b66a37266615ac2fa0e6953.0/input_scf.txt  is changed.
+calcdata/751aa565288af342b02e4cec013f0a3e02f2751d.0/input_scf.txt  is changed.
+send done
+\end{verbatim}
+The inputfiles are changed according to senario/metal1\_? files.
+\begin{verbatim}
+$ ls calcdata/
+1178f9860baff27f5f6ec857ca0b8f53072f81d2.0  7287588e927eefadf94f7daf67bb663c29357005.0
+1b16160e003f0b8ed8541db046880ac11267baf1.0  751aa565288af342b02e4cec013f0a3e02f2751d.0
+4435a45b0ef7ca11cce11ce420c2a8a87aae7a83.0  947390dc28b02f2f4b66a37266615ac2fa0e6953.0
+5b600d251de1acf57a02e5db5ab2bee282ff8aac.0  9d47efe361cb99a7b869a3d2fc6dd470d2fe3dc9.0
+71198b9bf3de59a7e47325988f2282321b05470b.0  bda2dcf7090fcf8fe1b63a49174881c9aa7ad546.0
+$ ls -a calcdata/1178f9860baff27f5f6ec857ca0b8f53072f81d2.0
+.  ..  .EXECSTATUS  .ID  3.xsf  input_scf.txt  output_scf.txt
+\end{verbatim}
+.EXECSTATUS is made. 
+\begin{verbatim}
+$ cat calcdata/1178f9860baff27f5f6ec857ca0b8f53072f81d2.0/.EXECSTATUS 
+idle
+\end{verbatim}
+
+
+\section{calculate them in the computational server.}
+Send files into a computaional server.
+If the job can successfully calculated, change the .EXECSTATUS to "finished".
+Receive the result from the server.
+
+For example,
+\begin{verbatim}
+$ cat calcdata/1178f9860baff27f5f6ec857ca0b8f53072f81d2.0/.EXECSTATUS 
+finished
+\end{verbatim}
+
+
+\section{change the execution status}
+\begin{verbatim}
+$ ./db11.py -updatestatus
+mode= updatestatus
+updatestatus done
+\end{verbatim}
+The DB read the content of .EXECSTATUS.
+
+
+\section{receive the result and register to the DB.}
+\begin{verbatim}
+$ ./db11.py -recv
+mode= recv
+process  10 directories
+OK inputdata/Fdd2/xsf_2_i0041 9d47efe361cb99a7b869a3d2fc6dd470d2fe3dc9 0
+NG inputdata/Fdd2/xsf_2_i0049 4435a45b0ef7ca11cce11ce420c2a8a87aae7a83 0
+OK inputdata/Fdd2/xsf_2_i0040 1b16160e003f0b8ed8541db046880ac11267baf1 0
+NG inputdata/Fdd2/xsf_2_i0044 5b600d251de1acf57a02e5db5ab2bee282ff8aac 0
+OK inputdata/Fdd2/xsf_2_i0043 71198b9bf3de59a7e47325988f2282321b05470b 0
+OK inputdata/Fdd2/xsf_2_i0047 7287588e927eefadf94f7daf67bb663c29357005 0
+OK inputdata/Fdd2/xsf_2_i0046 bda2dcf7090fcf8fe1b63a49174881c9aa7ad546 0
+OK inputdata/Fdd2/xsf_2_i0042 1178f9860baff27f5f6ec857ca0b8f53072f81d2 0
+OK inputdata/Fdd2/xsf_2_i0045 947390dc28b02f2f4b66a37266615ac2fa0e6953 0
+NG inputdata/Fdd2/xsf_2_i0048 751aa565288af342b02e4cec013f0a3e02f2751d 0
+recv done
+$ ls inputdata/Fdd2/
+xsf_2_i0040    xsf_2_i0041.o  xsf_2_i0043    xsf_2_i0045    xsf_2_i0046.o  xsf_2_i0048
+xsf_2_i0040.o  xsf_2_i0042    xsf_2_i0043.o  xsf_2_i0045.o  xsf_2_i0047    xsf_2_i0049
+xsf_2_i0041    xsf_2_i0042.o  xsf_2_i0044    xsf_2_i0046    xsf_2_i0047.o
+\end{verbatim}
+inputdirectory.o is made if the output file shows that the SCF is converged. 
+
+\section{make the input files again for the failure cases}
+\begin{verbatim}
+$ ./db11.py -send
+mode= send
+make 3 directories
+calcdata/4435a45b0ef7ca11cce11ce420c2a8a87aae7a83.1/input_scf.txt  is changed.
+calcdata/5b600d251de1acf57a02e5db5ab2bee282ff8aac.1/input_scf.txt  is changed.
+calcdata/751aa565288af342b02e4cec013f0a3e02f2751d.1/input_scf.txt  is changed.
+send done
+$ ls calcdata/
+1178f9860baff27f5f6ec857ca0b8f53072f81d2.0  7287588e927eefadf94f7daf67bb663c29357005.0
+1b16160e003f0b8ed8541db046880ac11267baf1.0  751aa565288af342b02e4cec013f0a3e02f2751d.0
+4435a45b0ef7ca11cce11ce420c2a8a87aae7a83.0  751aa565288af342b02e4cec013f0a3e02f2751d.1
+4435a45b0ef7ca11cce11ce420c2a8a87aae7a83.1  947390dc28b02f2f4b66a37266615ac2fa0e6953.0
+5b600d251de1acf57a02e5db5ab2bee282ff8aac.0  9d47efe361cb99a7b869a3d2fc6dd470d2fe3dc9.0
+5b600d251de1acf57a02e5db5ab2bee282ff8aac.1  bda2dcf7090fcf8fe1b63a49174881c9aa7ad546.0
+71198b9bf3de59a7e47325988f2282321b05470b.0
+\end{verbatim}
+ID.1 is made. The input files are made using senario/metal1\_1 parameter.
+...
+
+\end{document}

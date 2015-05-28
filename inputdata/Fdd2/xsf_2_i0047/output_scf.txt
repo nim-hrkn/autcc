@@ -1,0 +1,2223 @@
+
+ #########################################################
+   #####  #     #    #     #####                          
+  #     # ##   ##   # #   #     #          #    #  #####  
+  #     # # # # #  #   #  #                ##  ##  #    # 
+  #     # #  #  # #     #  #####           # ## #  #    # 
+  #   # # #     # #######       #          #    #  #####  
+  #    #  #     # #     # #     #          #    #  #      
+   #### # #     # #     #  #####  #######  #    #  #      
+ #########################################################
+                                                          
+        Shoji ISHIBASHI   (RICS, AIST)                    
+        Tomoyuki TAMURA   (RICS, AIST)                    
+        Shingo TANAKA     (UBIQEN, AIST)                  
+        Masanori KOHYAMA  (UBIQEN, AIST)                  
+        Kiyoyuki TERAKURA (CRIS, Hokkaido U)              
+                                                          
+ #########################################################
+
+ title               
+ after scan_word
+ ctile=sio2____
+ add                 
+ cadd=scf
+ print_time          
+ iprtime=           0
+ unit                
+ iunit=           1
+ atomic_pos          
+ iatp=           2
+ space_group         
+ clty=gen
+ number_space        
+ nspace=           0
+ number_choice       
+ nchoice=           0
+ lattice_type        
+ lattice_list        
+  0.00000000D+00  0.78847580D+01  0.78847580D+01
+  0.78847580D+01  0.00000000D+00  0.78847580D+01
+  0.78854320D+01  0.78854320D+01  0.00000000D+00
+ omega,omegai=   6616.50630730212       1.511371641702174E-004
+ number_atom         
+ natom=          48
+ number_element      
+ nkatm=           2
+ set_atom_list
+ atom_list           
+  0.96783535D+00  0.10004742D+01  0.97470903D+00  1  0
+  0.29287244D+01  0.29333568D+01  0.97319024D+00  1  0
+  0.97578950D+00  0.29611671D+01  0.29469405D+01  1  0
+  0.29267654D+01  0.10018164D+01  0.29639119D+01  1  0
+  0.22590204D-01  0.20859388D-01  0.56915916D-02  2  0
+  0.19699904D+01  0.19593681D+01  0.19545752D+01  2  0
+  0.49570858D+01  0.49222869D+01  0.96035261D+00  1  0
+  0.68870459D+01  0.69111538D+01  0.98228070D+00  1  0
+  0.49388957D+01  0.69211347D+01  0.29776318D+01  1  0
+  0.68873621D+01  0.49041640D+01  0.29311463D+01  1  0
+  0.39242672D+01  0.39711278D+01  0.27010151D-02  2  0
+  0.58942488D+01  0.59040460D+01  0.19777722D+01  2  0
+  0.49107701D+01  0.97786156D+00  0.49228027D+01  1  0
+  0.69118848D+01  0.29754984D+01  0.49537958D+01  1  0
+  0.49338364D+01  0.29593960D+01  0.68928198D+01  1  0
+  0.69116420D+01  0.97736922D+00  0.68922250D+01  1  0
+  0.39456863D+01  0.94207700D-02  0.39181687D+01  2  0
+  0.59348806D+01  0.19518078D+01  0.59422968D+01  2  0
+  0.88861241D+01  0.49358415D+01  0.49026387D+01  1  0
+  0.10853072D+02  0.68707218D+01  0.49139514D+01  1  0
+  0.88575320D+01  0.68756908D+01  0.69070365D+01  1  0
+  0.10818844D+02  0.49365773D+01  0.69216261D+01  1  0
+  0.78552248D+01  0.39428158D+01  0.39331314D+01  2  0
+  0.98681587D+01  0.59185514D+01  0.58998075D+01  2  0
+  0.96377153D+00  0.49498592D+01  0.49182686D+01  1  0
+  0.29827209D+01  0.69283810D+01  0.49187370D+01  1  0
+  0.96637820D+00  0.69141914D+01  0.68857704D+01  1  0
+  0.29780421D+01  0.49260546D+01  0.69079141D+01  1  0
+ -0.25065669D-01  0.39610500D+01  0.39323679D+01  2  0
+  0.19430372D+01  0.58843916D+01  0.58935385D+01  2  0
+  0.49518044D+01  0.88631970D+01  0.49328149D+01  1  0
+  0.69212687D+01  0.10820502D+02  0.49107683D+01  1  0
+  0.49449642D+01  0.10811100D+02  0.69095547D+01  1  0
+  0.68923772D+01  0.88464033D+01  0.68839498D+01  1  0
+  0.39647714D+01  0.78990702D+01  0.39146927D+01  2  0
+  0.59193177D+01  0.98299891D+01  0.59131579D+01  2  0
+  0.49002771D+01  0.49010219D+01  0.88741149D+01  1  0
+  0.69074993D+01  0.69030527D+01  0.88808541D+01  1  0
+  0.49468901D+01  0.68974411D+01  0.10849179D+02  1  0
+  0.69103591D+01  0.49337514D+01  0.10832446D+02  1  0
+  0.39221821D+01  0.39205842D+01  0.78572275D+01  2  0
+  0.59412557D+01  0.59013138D+01  0.98456823D+01  2  0
+  0.88951001D+01  0.88470507D+01  0.88747782D+01  1  0
+  0.10839035D+02  0.10818127D+02  0.88617877D+01  1  0
+  0.88693647D+01  0.10824283D+02  0.10865499D+02  1  0
+  0.10816190D+02  0.88678442D+01  0.10819607D+02  1  0
+  0.78643369D+01  0.79143630D+01  0.78960828D+01  2  0
+  0.98684923D+01  0.98679269D+01  0.98697813D+01  2  0
+ element_list        
+ 08lda2
+ 14lda2
+ exc_type            
+ iexc=           1
+ number_spin         
+ nsp=           1
+ cutoff_wf           
+ ecut=   40.0000000000000     
+ fft_mesh            
+ ifftmesh=           1
+ kerker_apre         
+ apre=  0.400000000000000     
+ kerker_g0sq         
+ g0sq=  0.500000000000000     
+ kerker_amixmin      
+ amixmin=  1.000000000000000E-005
+ pulay_apre          
+ aprep=  0.400000000000000     
+ pulay_g0sq          
+ g0sqp=  0.500000000000000     
+ pulay_amixmin       
+ amixminp=  1.000000000000000E-005
+ gmetric_sw          
+ imetric=           0
+ charge_extrapolation
+ ichgext=           1
+ wf_extrapolation    
+ iwfext=           0
+ th_charge           
+ dth=  1.000000000000000E-008
+ dth_mode            
+ imod_dth=           1
+ th_force            
+ fth=  5.000000000000000E-005
+ th_stress           
+ sth=  5.000000000000000E-007
+ gauss_delta         
+ delta=  2.500000000000000E-002
+ gauss_alpha         
+ galpha=   2.50000000000000     
+ sw_to_pulay         
+ lsw=          10
+ pulay_mode          
+ ipulay=           1
+ pulay_history       
+ ipulayh=           5
+ conv_type           
+ iconv=           1
+ use_scalapack       
+ iscalapack=           0
+ use_zheevd          
+ izheevd=           0
+ number_max_relax    
+ nrelax=           1
+ number_max_iteration
+ nscf=         100
+ continue_relax      
+ irelax=           0
+ continue_iteration  
+ iscf=           0
+ number_pre_iteration
+ nprescf=           0
+ number_unoccupied   
+ nplus=          15
+ charge_state        
+ rcharge=  0.000000000000000E+000
+ number_population   
+ npopp=        -999
+ cal_stress          
+ nstrs=           0
+ continue_stress     
+ istrs=           0
+ cell_opt_mode       
+ irlattice=           1
+ cal_plus_u          
+ iplusu=           0
+ cal_berry           
+ iberry=           0
+ apply_field         
+ ifield=           0
+ super_cell_corr     
+ isccorr=           0
+ cal_esm             
+ iesm=           0
+ cal_enedens         
+ ienedens=           0
+ cal_strdens         
+ istrdens=           0
+ cal_wannier         
+ iwannier=           0
+ filtering_projector 
+ ifilter=           0
+ cal_in_realspace    
+ irealspace=           0
+ cal_dos             
+ idos=           0
+ sigma_dos           
+ sgdos=  0.200000000000000     
+ cal_optics          
+ ioptcs=           0
+ sigma_optics        
+ sgieps=  0.200000000000000     
+ cal_scissor         
+ isci=           0
+ energy_scissor      
+ esci=  0.000000000000000E+000
+ cal_ldos            
+ ildos=           0
+ cal_eels            
+ ieels=           0
+ charge_plot         
+ ichgplot=           0
+ wave_plot           
+ iwavplot=           0
+ input_charge        
+ ipcd=           0
+ input_occupancy     
+ ipoc=           0
+ input_atomic_pos    
+ ipap=           0
+ input_vector        
+ ipvc=           0
+ input_g             
+ ipvi=           0
+ charge_fixed        
+ ipcfix=           0
+ set_k_point         
+ input_velocity      
+ ipvl=           1
+ output_charge       
+ iocd=           0
+ cal_positron        
+ ipositron=           0
+ cal_compton         
+ icompton=           0
+ nk_v                
+ nk_v=           2           2           2
+ sk_v                
+ sk_v=          -2          -2          -2
+ ek_v                
+ ek_v=           0           0           0
+ md_mode             
+ imd=          -5
+ time_step           
+ tstep=   150.000000000000     
+ lattice_mass        
+ mltc=   10000.0000000000     
+ gdiis_mode          
+ imdgdiis=           1
+ set_mass            
+ imassset=           0
+ damping_factor      
+ dampmu=  0.600000000000000     
+ spinor_cal          
+ ispinor=           0
+
+ information of atomic positions
+ lattice vectors     0.000000    7.884758    7.884758
+                     7.884758    0.000000    7.884758
+                     7.885432    7.885432    0.000000
+ atom  katm    x               y               z              fix
+ ----------------------------------------------------------------
+    1     1    0.63874158D-01  0.59734674D-01  0.63012955D-01   0
+    2     1    0.62001867D-01  0.61414356D-01  0.31002690D+00   0
+    3     1    0.31275952D+00  0.60960084D-01  0.62796346D-01   0
+    4     1    0.65868193D-01  0.31000366D+00  0.61189144D-01   0
+    5     2    0.25113578D-03  0.47064986D-03  0.23943973D-02   0
+    6     2    0.12326223D+00  0.12460943D+00  0.12523849D+00   0
+    7     1    0.58687385D-01  0.63100821D-01  0.56559137D+00   0
+    8     1    0.63813280D-01  0.60755760D-01  0.81270744D+00   0
+    9     1    0.31450656D+00  0.63105194D-01  0.56328001D+00   0
+   10     1    0.60096815D-01  0.31161983D+00  0.56188347D+00   0
+   11     2    0.31428638D-02 -0.28003315D-02  0.50050326D+00   0
+   12     2    0.12602799D+00  0.12478544D+00  0.62276430D+00   0
+   13     1    0.62745954D-01  0.56154485D+00  0.61273268D-01   0
+   14     1    0.64490629D-01  0.56373060D+00  0.31288283D+00   0
+   15     1    0.31185422D+00  0.56226653D+00  0.63477017D-01   0
+   16     1    0.60709734D-01  0.81333560D+00  0.63247047D-01   0
+   17     2   -0.11688164D-02  0.49805583D+00  0.23636242D-02   0
+   18     2    0.12420902D+00  0.62937009D+00  0.12333286D+00   0
+   19     1    0.60365650D-01  0.56136804D+00  0.56563219D+00   0
+   20     1    0.59049446D-01  0.56411887D+00  0.81234341D+00   0
+   21     1    0.31228637D+00  0.56363729D+00  0.55973669D+00   0
+   22     1    0.65871878D-01  0.81190198D+00  0.56021928D+00   0
+   23     2    0.12927600D-02  0.49749176D+00  0.49876264D+00   0
+   24     2    0.12363702D+00  0.62455376D+00  0.62699494D+00   0
+   25     1    0.56462963D+00  0.59086184D-01  0.63146044D-01   0
+   26     1    0.56209567D+00  0.61679542D-01  0.31660993D+00   0
+   27     1    0.81378497D+00  0.59441811D-01  0.63121011D-01   0
+   28     1    0.56154775D+00  0.31448721D+00  0.63208856D-01   0
+   29     2    0.50211734D+00 -0.34296478D-02  0.25064489D-03   0
+   30     2    0.62363291D+00  0.12376286D+00  0.12266667D+00   0
+   31     1    0.56081530D+00  0.64745206D-01  0.56327716D+00   0
+   32     1    0.55864630D+00  0.64118355D-01  0.81368522D+00   0
+   33     1    0.81011366D+00  0.66129351D-01  0.56102550D+00   0
+   34     1    0.56040956D+00  0.31258634D+00  0.56155300D+00   0
+   35     2    0.49771070D+00 -0.12645067D-02  0.50410447D+00   0
+   36     2    0.62293122D+00  0.12695260D+00  0.62377655D+00   0
+   37     1    0.56273771D+00  0.56264324D+00  0.58844073D-01   0
+   38     1    0.56283582D+00  0.56339976D+00  0.31265747D+00   0
+   39     1    0.81161668D+00  0.56423421D+00  0.63164903D-01   0
+   40     1    0.56152087D+00  0.81220805D+00  0.64211888D-01   0
+   41     2    0.49811028D+00  0.49831294D+00 -0.87444956D-03   0
+   42     2    0.62176282D+00  0.62682854D+00  0.12668295D+00   0
+   43     1    0.55968555D+00  0.56577951D+00  0.56235912D+00   0
+   44     1    0.56058299D+00  0.56323467D+00  0.81144730D+00   0
+   45     1    0.81292848D+00  0.56499205D+00  0.55988263D+00   0
+   46     1    0.56249895D+00  0.80960180D+00  0.56218289D+00   0
+   47     2    0.50384768D+00  0.49750302D+00  0.49990704D+00   0
+   48     2    0.62578789D+00  0.62585961D+00  0.62573142D+00   0
+ ----------------------------------------------------------------
+
+ ika=  1
+   z=  8.0000   zv=  6.0000   lmax= 1
+   rc(1)=  1.3000   pocc(1)=  2.0000   pocc(2)=  0.0000
+   rc(2)=  1.5000   pocc(1)=  4.0000   pocc(2)=  0.0000
+   rccmp=  1.1000
+ ika=  2
+   z= 14.0000   zv=  4.0000   lmax= 1
+   rc(1)=  1.9000   pocc(1)=  2.0000   pocc(2)=  0.0000
+   rc(2)=  1.9000   pocc(1)=  2.0000   pocc(2)=  0.0000
+   rccmp=  1.5000
+ npr =            8
+           1           0           0           1
+           2           0           0           2
+           1           1          -1           7
+           2           1          -1           8
+           1           1           0           5
+           2           1           0           6
+           1           1           1           3
+           2           1           1           4
+ nb,nbo =          143         128
+ 3 angles   109.468912006941        109.468912006941     
+   109.475837988260     
+ ng =        33223
+ ntmp(1),ntmp(2),ntmp(3),nf,lnf =           54          54          54
+      884736     1728000
+ 
+ information of k-points
+  ik    kx  ky  kz  wk
+    1    -2  -2  -2  0.12500000
+    2     0  -2  -2  0.12500000
+    3    -2   0  -2  0.12500000
+    4     0   0  -2  0.12500000
+    5    -2  -2   0  0.12500000
+    6     0  -2   0  0.12500000
+    7    -2   0   0  0.12500000
+    8     0   0   0  0.12500000
+  
+  *********************************** 
+  Multiple Division information 
+  number of k-points =            8
+  k-point division   =            8
+  number of bands    =          143
+  band    division   =            7
+                       
+  Total  MPI procs   =           56
+  *********************************** 
+  thread-parallel information 
+  OMP_NUM_THREADS=            1
+  
+
+ initialization for FFTW ver3
+ for a large system, it may cost a few minutes...
+   nra, nrb, nrc=      96   96   96
+   lnra, lnrb, lnrc=  120  120  120
+ with fftw_estimate + fftw_in_place
+ 
+
+ initialization for FFTW ver3
+ nra, nrb, nrc=      96   96   96
+ lnra, lnrb, lnrc=  120  120  120
+ with fftw_estimate
+ 
+ ylmrot
+ newspmset
+ yyyset
+
+ nq0max=          16          64
+ nq1max=         104         576
+ nq2max=        1472       36864
+
+ atomic data input
+ necessary memory size on each node >   527 MB  (   540654 KB )
+ srho(irhocal) =    245.950063202673     
+ gmsqmin=  0.13335885D+00
+ gmsqmax=  0.17338708D+04
+ ngkm,nb,nsp
+       28325         143           1
+ setup initial vectors
+ information of mass
+ ika= 1  mass=  0.1094D+05
+ ika= 2  mass=  0.1094D+05
+                                               elapsed *****          5.375sec
+ alphalm =  0.000000000000000E+000
+ srho(irhocal) =    245.950063202673     
+ totele,rhosum =   256.000000000000        256.000037309070     
+ total energy  tote= -0.1071175238662741D+04
+  ekin=     0.1959003255328153D+03
+  eloc=    -0.1009024113450689D+03
+  ehtr=     0.1613668711952129D+03
+  eexc=    -0.2337848993211342D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.6112718384932499D+03
+  eloc1=   -0.1274624103102987D+04
+  ehtr1=    0.3058765165790013D+03
+  exc1=    -0.5390447653290059D+03
+  ekins1=   0.2455391106598911D+03
+  elocs1=  -0.1046130467714371D+04
+  ehtrs1=   0.3106956828480373D+03
+  excs1=   -0.2010121924789871D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+ 
+ *******************************
+   SCF-loop (band parallel)
+    np=  56
+ *******************************
+                                               elapsed *****          9.581sec
+
+ loopo=   1  ( Blocked-Davidson method )
+ loopo =           1  ik =           1
+
+ max change of ene  denemax=  0.8288430104787052D+00
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene=  0.44635337D+01  occb=  0.20000000D+01
+ n= 124  ene=  0.49749593D+01  occb=  0.20000000D+01
+ n= 125  ene=  0.54196625D+01  occb=  0.20000000D+01
+ n= 126  ene=  0.56046159D+01  occb=  0.20000000D+01
+ n= 127  ene=  0.60068408D+01  occb=  0.20000000D+01
+ n= 128  ene=  0.61252680D+01  occb=  0.19992946D+01
+ n= 129  ene=  0.64088686D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.66559823D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.67772673D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.69251426D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.71644863D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ total energy  tote= -0.9685893822817636D+03
+  ekin=     0.2136262326170176D+03
+  eloc=    -0.6794750536524795D+02
+  ehtr=     0.2346852417742913D+03
+  eexc=    -0.2146388541598543D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.4137265424564693D+03
+  eloc1=   -0.9841034009199570D+03
+  ehtr1=    0.2059941661005473D+03
+  exc1=    -0.5169629293689823D+03
+  ekins1=   0.1518811150631713D+03
+  elocs1=  -0.8134911666782617D+03
+  ehtrs1=   0.2076010765021622D+03
+  excs1=   -0.1811646275212772D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm = -0.6021D+00  0.0000D+00 at ina=  46  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm = -0.5941D+00  0.0000D+00 at ina=  39  ii=  1  jj=  1  isp= 1
+ 3rd max of rhoijm = -0.5938D+00  0.0000D+00 at ina=  45  ii=  1  jj=  1  isp= 1
+
+ out     1  0.26559132E-01  0.36016279E-01  0.60209332E+00
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -968.589382281764       0.227298303569617     
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =           1
+ residual charge  distf2=  0.00000000D+00
+                  distf1=  0.00000000D+00
+                  distf0=  0.36016279D-01
+ Kerker mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****         19.344sec
+
+ loopo=   2  ( Blocked-Davidson method )
+ loopo =           2  ik =           1
+
+ max change of ene  denemax=  0.4690765895963930D+00
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.78287053D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.71928912D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.65557255D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.59488105D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.53416497D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.28614007D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.96391836D+00  occb=  0.00000000D+00
+ n= 130  ene=  0.23512515D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.27584187D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.29874645D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.33627254D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  3  ib= 128  VBM= -0.12663521D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.31633232D+00
+ Energy gap is  0.15826844D+01  (eV)
+ 
+ total energy  tote= -0.1004504602466129D+04
+  ekin=     0.2933108635421472D+03
+  eloc=    -0.1175551464221405D+03
+  ehtr=     0.1371288423141484D+03
+  eexc=    -0.2472188869321552D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.6746901095775786D+03
+  eloc1=   -0.1470460592019519D+04
+  ehtr1=    0.4423204954276827D+03
+  exc1=    -0.5617925404079426D+03
+  ekins1=   0.2852161709496768D+03
+  elocs1=  -0.1244532528250312D+04
+  ehtrs1=   0.4507738861861621D+03
+  excs1=   -0.2246722593898510D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm = -0.1027D+01  0.0000D+00 at ina=   5  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm = -0.8968D+00  0.0000D+00 at ina=  18  ii=  1  jj=  1  isp= 1
+ 3rd max of rhoijm = -0.8919D+00  0.0000D+00 at ina=  30  ii=  1  jj=  1  isp= 1
+
+ out     2  0.35677919E-01  0.34715616E-01  0.10271438E+01
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1004.50460246613      -1.528721447869946E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =           2
+ residual charge  distf2=  0.00000000D+00
+                  distf1=  0.36016279D-01
+                  distf0=  0.34715616D-01
+ Kerker mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****         29.488sec
+
+ loopo=   3  ( Blocked-Davidson method )
+ loopo =           3  ik =           1
+
+ max change of ene  denemax=  0.1405841435768807D+00
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.62107118D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.61818528D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.61331602D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.60146167D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.59900007D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.55404242D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.90352250D+00  occb=  0.00000000D+00
+ n= 130  ene=  0.15873832D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.24632545D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.25704083D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.26423165D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  3  ib= 128  VBM= -0.50918715D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.17202365D+00
+ Energy gap is  0.52638952D+01  (eV)
+ 
+ total energy  tote= -0.1007755752634589D+04
+  ekin=     0.2911667875626705D+03
+  eloc=    -0.1161673895444087D+03
+  ehtr=     0.1384651481127694D+03
+  eexc=    -0.2472796895660188D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.6638602695309287D+03
+  eloc1=   -0.1463418044058293D+04
+  ehtr1=    0.4393268461132025D+03
+  exc1=    -0.5609813596313759D+03
+  ekins1=   0.2833154477030332D+03
+  elocs1=  -0.1242365773277444D+04
+  ehtrs1=   0.4477295669278262D+03
+  excs1=   -0.2240933982496043D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm = -0.6166D+00  0.0000D+00 at ina=   5  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm = -0.5596D+00  0.0000D+00 at ina=  30  ii=  1  jj=  1  isp= 1
+ 3rd max of rhoijm = -0.5502D+00  0.0000D+00 at ina=  12  ii=  1  jj=  1  isp= 1
+
+ out     3  0.15398696E-02  0.21534411E-01  0.61662861E+00
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1007.75575263459      -6.212135805558017E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =           3
+ residual charge  distf2=  0.36016279D-01
+                  distf1=  0.34715616D-01
+                  distf0=  0.21534411D-01
+ Kerker mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****         39.619sec
+
+ loopo=   4  ( Blocked-Davidson method )
+ loopo =           4  ik =           1
+
+ max change of ene  denemax=  0.9424426386249724D-01
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.38159684D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.37948414D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.37731055D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.37395770D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.35407697D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.35312910D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.13570379D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.15443189D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.28068300D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.28551594D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.28935945D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.34928347D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.57371072D+00
+ Energy gap is  0.40665454D+01  (eV)
+ 
+ total energy  tote= -0.1010815488765279D+04
+  ekin=     0.2718997740807739D+03
+  eloc=    -0.1053379604152028D+03
+  ehtr=     0.1520700556575237D+03
+  eexc=    -0.2403587403358862D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.6074967745086212D+03
+  eloc1=   -0.1364999230759328D+04
+  ehtr1=    0.3820190179942250D+03
+  exc1=    -0.5513023530818712D+03
+  ekins1=   0.2558571136747244D+03
+  elocs1=  -0.1155703350184283D+04
+  ehtrs1=   0.3885675282889717D+03
+  excs1=   -0.2145609434155322D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm = -0.1985D+00  0.0000D+00 at ina=   5  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm = -0.1708D+00  0.0000D+00 at ina=  11  ii=  1  jj=  1  isp= 1
+ 3rd max of rhoijm = -0.1698D+00  0.0000D+00 at ina=  41  ii=  1  jj=  1  isp= 1
+
+ out     4  0.75303296E-02  0.41903520E-02  0.19848816E+00
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.81548876528      -3.358299880301230E-003
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =           4
+ residual charge  distf2=  0.34715616D-01
+                  distf1=  0.21534411D-01
+                  distf0=  0.41903520D-02
+ Kerker mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****         49.743sec
+
+ loopo=   5  ( Blocked-Davidson method )
+ loopo =           5  ik =           1
+
+ max change of ene  denemax=  0.1894069667712955D-01
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.33265727D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.33069865D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.33027659D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.32516114D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.30573517D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.30398319D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.15115471D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.15901654D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.28977133D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.29623361D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.29958524D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.29925411D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.73645965D+00
+ Energy gap is  0.37290007D+01  (eV)
+ 
+ total energy  tote= -0.1010959111050167D+04
+  ekin=     0.2675454348975629D+03
+  eloc=    -0.1030697816944262D+03
+  ehtr=     0.1553669370657866D+03
+  eexc=    -0.2387874511157068D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5970239843882567D+03
+  eloc1=   -0.1343031946693990D+04
+  ehtr1=    0.3690696725759072D+03
+  exc1=    -0.5490928626212969D+03
+  ekins1=   0.2504203343799382D+03
+  elocs1=  -0.1135470670307821D+04
+  ehtrs1=   0.3752349817893765D+03
+  excs1=   -0.2123440260594865D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm = -0.7687D-01  0.0000D+00 at ina=   5  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm = -0.7064D-01  0.0000D+00 at ina=  21  ii=  1  jj=  1  isp= 1
+ 3rd max of rhoijm = -0.7036D-01  0.0000D+00 at ina=   8  ii=  1  jj=  1  isp= 1
+
+ out     5  0.16810775E-02  0.31739926E-02  0.76866243E-01
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.95911105017       1.502700690949295E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =           5
+ residual charge  distf2=  0.21534411D-01
+                  distf1=  0.41903520D-02
+                  distf0=  0.31739926D-02
+ Kerker mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****         59.879sec
+
+ loopo=   6  ( Blocked-Davidson method )
+ loopo =           6  ik =           1
+
+ max change of ene  denemax=  0.4642589024441479D-02
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.32561666D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.32351640D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.32287782D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.31747836D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.29929641D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.29680827D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.15791466D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.16322065D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.29290061D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.29934213D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.30367961D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.29164192D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.81859110D+00
+ Energy gap is  0.37350103D+01  (eV)
+ 
+ total energy  tote= -0.1010967673442155D+04
+  ekin=     0.2673050619659732D+03
+  eloc=    -0.1030671916814632D+03
+  ehtr=     0.1554136452995786D+03
+  eexc=    -0.2387054110334968D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5975651421638887D+03
+  eloc1=   -0.1342241498877283D+04
+  ehtr1=    0.3681884700552349D+03
+  exc1=    -0.5489516681269495D+03
+  ekins1=   0.2505775181452907D+03
+  elocs1=  -0.1134403986680861D+04
+  ehtrs1=   0.3743472932477550D+03
+  excs1=   -0.2121890795547996D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm =  0.4544D-01  0.0000D+00 at ina=   5  ii=  5  jj=  5  isp= 1
+ 2nd max of rhoijm =  0.4526D-01  0.0000D+00 at ina=  11  ii=  5  jj=  5  isp= 1
+ 3rd max of rhoijm =  0.4503D-01  0.0000D+00 at ina=  29  ii=  3  jj=  3  isp= 1
+
+ out     6  0.14673831E-03  0.19525428E-02  0.45435038E-01
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.96767344215       1.782441311077276E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =           6
+ residual charge  distf2=  0.41903520D-02
+                  distf1=  0.31739926D-02
+                  distf0=  0.19525428D-02
+ Kerker mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****         69.976sec
+
+ loopo=   7  ( Blocked-Davidson method )
+ loopo =           7  ik =           1
+
+ max change of ene  denemax=  0.3516392780206323D-02
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.32035225D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.31833360D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.31698480D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.31162701D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.29436338D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.29138977D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.16394592D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.16846472D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.29654468D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.30256926D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.30796653D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.28583925D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.88918301D+00
+ Energy gap is  0.37475755D+01  (eV)
+ 
+ total energy  tote= -0.1010970257341582D+04
+  ekin=     0.2674455714956347D+03
+  eloc=    -0.1032277440538270D+03
+  ehtr=     0.1552252825363732D+03
+  eexc=    -0.2387596315079733D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5986635019716936D+03
+  eloc1=   -0.1343267362243040D+04
+  ehtr1=    0.3684869893376182D+03
+  exc1=    -0.5490032136951634D+03
+  ekins1=   0.2510930698555244D+03
+  elocs1=  -0.1135137230605619D+04
+  ehtrs1=   0.3746696978415150D+03
+  excs1=   -0.2122343639587760D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm = -0.2832D-01  0.0000D+00 at ina=   5  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm =  0.2571D-01  0.0000D+00 at ina=  11  ii=  5  jj=  5  isp= 1
+ 3rd max of rhoijm =  0.2512D-01  0.0000D+00 at ina=  30  ii=  5  jj=  5  isp= 1
+
+ out     7  0.14092456E-03  0.11101475E-02  0.28320390E-01
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.97025734158       1.995683816288785E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =           7
+ residual charge  distf2=  0.31739926D-02
+                  distf1=  0.19525428D-02
+                  distf0=  0.11101475D-02
+ Kerker mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****         80.075sec
+
+ loopo=   8  ( Blocked-Davidson method )
+ loopo =           8  ik =           1
+
+ max change of ene  denemax=  0.2998076096980662D-02
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.31428130D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.31229354D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.31040991D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.30505358D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.28844556D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.28510603D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.16964508D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.17402003D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.30066570D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.30651189D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.31256920D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.27919084D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.95164690D+00
+ Energy gap is  0.37435553D+01  (eV)
+ 
+ total energy  tote= -0.1010971170541098D+04
+  ekin=     0.2674373602291247D+03
+  eloc=    -0.1032742211608449D+03
+  ehtr=     0.1551952774104538D+03
+  eexc=    -0.2387616955112123D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5990060429536085D+03
+  eloc1=   -0.1343411740137265D+04
+  ehtr1=    0.3684415302695956D+03
+  exc1=    -0.5489902571960201D+03
+  ekins1=   0.2512589791158749D+03
+  elocs1=  -0.1135198750328848D+04
+  ehtrs1=   0.3746319247429530D+03
+  excs1=   -0.2122211641816945D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm = -0.1810D-01  0.0000D+00 at ina=   5  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm = -0.1506D-01  0.0000D+00 at ina=  48  ii=  1  jj=  1  isp= 1
+ 3rd max of rhoijm = -0.1463D-01  0.0000D+00 at ina=  36  ii=  1  jj=  1  isp= 1
+
+ out     8  0.58553657E-04  0.69098614E-03  0.18102268E-01
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.97117054110       2.240006433889041E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =           8
+ residual charge  distf2=  0.19525428D-02
+                  distf1=  0.11101475D-02
+                  distf0=  0.69098614D-03
+ Kerker mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****         90.209sec
+
+ loopo=   9  ( Blocked-Davidson method )
+ loopo =           9  ik =           1
+
+ max change of ene  denemax=  0.2517364785914356D-02
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.30902025D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.30705911D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.30474341D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.29936750D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.28328347D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.27964190D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.17441992D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.17884276D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.30424233D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.31015718D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.31658059D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.27340459D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.10024545D+01
+ Energy gap is  0.37365005D+01  (eV)
+ 
+ total energy  tote= -0.1010971700401343D+04
+  ekin=     0.2673630877163837D+03
+  eloc=    -0.1032667322806025D+03
+  ehtr=     0.1552363474898012D+03
+  eexc=    -0.2387388212828467D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5990156231112219D+03
+  eloc1=   -0.1343152436235616D+04
+  ehtr1=    0.3682315753382238D+03
+  exc1=    -0.5489483829628685D+03
+  ekins1=   0.2512646105134034D+03
+  elocs1=  -0.1134935722406951D+04
+  ehtrs1=   0.3744210788741161D+03
+  excs1=   -0.2121804837357806D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm = -0.1132D-01  0.0000D+00 at ina=   5  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm = -0.9776D-02  0.0000D+00 at ina=  48  ii=  1  jj=  1  isp= 1
+ 3rd max of rhoijm = -0.9556D-02  0.0000D+00 at ina=  36  ii=  1  jj=  1  isp= 1
+
+ out     9  0.32908954E-04  0.46600747E-03  0.11317509E-01
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.97170040134       2.452645454630183E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =           9
+ residual charge  distf2=  0.11101475D-02
+                  distf1=  0.69098614D-03
+                  distf0=  0.46600747D-03
+ Kerker mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****        100.364sec
+
+ loopo=  10  ( Blocked-Davidson method )
+ loopo =          10  ik =           1
+
+ max change of ene  denemax=  0.1914131407192432D-02
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.30504781D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.30311054D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.30044752D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.29503736D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.27939364D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.27549775D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.17818769D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.18271111D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.30707458D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.31317002D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.31979477D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.26899061D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.10420774D+01
+ Energy gap is  0.37319836D+01  (eV)
+ 
+ total energy  tote= -0.1010972006756643D+04
+  ekin=     0.2672934122720159D+03
+  eloc=    -0.1032516452942227D+03
+  ehtr=     0.1552812103897638D+03
+  eexc=    -0.2387166524253371D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5989628794389344D+03
+  eloc1=   -0.1342879411394531D+04
+  ehtr1=    0.3680418407836929D+03
+  exc1=    -0.5489108347080434D+03
+  ekins1=   0.2512400989619898D+03
+  elocs1=  -0.1134674693229735D+04
+  ehtrs1=   0.3742291357895910D+03
+  excs1=   -0.2121442137531829D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm = -0.7080D-02  0.0000D+00 at ina=   5  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm = -0.6401D-02  0.0000D+00 at ina=  24  ii=  1  jj=  1  isp= 1
+ 3rd max of rhoijm = -0.6350D-02  0.0000D+00 at ina=  48  ii=  1  jj=  1  isp= 1
+
+ out    10  0.24781734E-04  0.32801316E-03  0.70800739E-02
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.97200675664       2.614854907049884E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =          10
+ residual charge  distf2=  0.69098614D-03
+                  distf1=  0.46600747D-03
+                  distf0=  0.32801316D-03
+ Pulay mixing
+ totele,rhosum =   256.000000000000        256.000000000009     
+                                               elapsed *****        110.504sec
+
+ loopo=  11  ( Blocked-Davidson method )
+ loopo =          11  ik =           1
+
+ max change of ene  denemax=  0.5681519466820273D-02
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.29395542D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.29209159D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.28816640D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.28242888D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.26869733D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.26369944D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.19098125D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.19610180D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.31827937D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.32513083D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.33211739D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.25612684D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.11754907D+01
+ Energy gap is  0.37367591D+01  (eV)
+ 
+ total energy  tote= -0.1010972409720292D+04
+  ekin=     0.2671836226212837D+03
+  eloc=    -0.1032468126061795D+03
+  ehtr=     0.1553493761235270D+03
+  eexc=    -0.2386871180736045D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5989353966442642D+03
+  eloc1=   -0.1342515080502939D+04
+  ehtr1=    0.3677990340303583D+03
+  exc1=    -0.5488529625926353D+03
+  ekins1=   0.2512421595464747D+03
+  elocs1=  -0.1134341961103103D+04
+  ehtrs1=   0.3739864150528623D+03
+  excs1=   -0.2120912261821196D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm =  0.1467D-02  0.0000D+00 at ina=  21  ii=  3  jj=  3  isp= 1
+ 2nd max of rhoijm =  0.1467D-02  0.0000D+00 at ina=  21  ii=  7  jj=  7  isp= 1
+ 3rd max of rhoijm =  0.1455D-02  0.0000D+00 at ina=  26  ii=  5  jj=  5  isp= 1
+
+ out    11  0.56701630E-04  0.59397429E-04  0.14669066E-02
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.97240972029       3.087586058580860E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =          11
+ residual charge  distf2=  0.46600747D-03
+                  distf1=  0.32801316D-03
+                  distf0=  0.59397429D-04
+ Pulay mixing
+ totele,rhosum =   256.000000000000        256.000000000016     
+                                               elapsed *****        120.604sec
+
+ loopo=  12  ( Blocked-Davidson method )
+ loopo =          12  ik =           1
+
+ max change of ene  denemax=  0.3513026122512475D-03
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.29321419D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.29135011D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.28735558D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.28158475D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.26796451D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.26289965D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.19130312D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.19643753D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.31813883D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.32506715D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.33211404D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.25525001D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.11789625D+01
+ Energy gap is  0.37314627D+01  (eV)
+ 
+ total energy  tote= -0.1010972440585819D+04
+  ekin=     0.2671224310113896D+03
+  eloc=    -0.1032157948586128D+03
+  ehtr=     0.1554011662843760D+03
+  eexc=    -0.2386650673741954D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5987716636536580D+03
+  eloc1=   -0.1342205114526706D+04
+  ehtr1=    0.3676258190585440D+03
+  exc1=    -0.5488207481659344D+03
+  ekins1=   0.2511636649053916D+03
+  elocs1=  -0.1134067574061608D+04
+  ehtrs1=   0.3738082949277543D+03
+  excs1=   -0.2120600681534530D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm =  0.4758D-03  0.0000D+00 at ina=   7  ii=  5  jj=  5  isp= 1
+ 2nd max of rhoijm = -0.4614D-03  0.0000D+00 at ina=  11  ii=  1  jj=  1  isp= 1
+ 3rd max of rhoijm = -0.4542D-03  0.0000D+00 at ina=  41  ii=  1  jj=  1  isp= 1
+
+ out    12  0.20757018E-04  0.14664058E-04  0.47577908E-03
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.97244058582       3.119808651746614E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =          12
+ residual charge  distf2=  0.32801316D-03
+                  distf1=  0.59397429D-04
+                  distf0=  0.14664058D-04
+ Pulay mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****        130.739sec
+
+ loopo=  13  ( Blocked-Davidson method )
+ loopo =          13  ik =           1
+
+ max change of ene  denemax=  0.2183691570727397D-03
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.29288976D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.29102689D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.28693926D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.28112400D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.26767466D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.26250459D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.19159928D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.19678005D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.31805259D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.32506137D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.33217619D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.25476393D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.11824416D+01
+ Energy gap is  0.37300809D+01  (eV)
+ 
+ total energy  tote= -0.1010972442868032D+04
+  ekin=     0.2671004829756342D+03
+  eloc=    -0.1032046037735392D+03
+  ehtr=     0.1554193333145759D+03
+  eexc=    -0.2386571245108483D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5987148872287481D+03
+  eloc1=   -0.1342093663047905D+04
+  ehtr1=    0.3675631396667036D+03
+  exc1=    -0.5488093649057424D+03
+  ekins1=   0.2511355121786844D+03
+  elocs1=  -0.1133967306365741D+04
+  ehtrs1=   0.3737437675166015D+03
+  excs1=   -0.2120489215641380D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm = -0.2022D-03  0.0000D+00 at ina=  26  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm = -0.1853D-03  0.0000D+00 at ina=  19  ii=  1  jj=  1  isp= 1
+ 3rd max of rhoijm = -0.1848D-03  0.0000D+00 at ina=  37  ii=  1  jj=  1  isp= 1
+
+ out    13  0.77892027E-05  0.13543711E-04  0.20219485E-03
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.97244286803       3.137671876696506E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =          13
+ residual charge  distf2=  0.59397429D-04
+                  distf1=  0.14664058D-04
+                  distf0=  0.13543711D-04
+ Pulay mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****        140.873sec
+
+ loopo=  14  ( Blocked-Davidson method )
+ loopo =          14  ik =           1
+
+ max change of ene  denemax=  0.9751126982260327D-04
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.29305197D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.29119237D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.28704133D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.28119625D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.26786938D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.26262098D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.19153368D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.19674270D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.31772525D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.32477022D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.33194229D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.25482406D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.11821484D+01
+ Energy gap is  0.37303890D+01  (eV)
+ 
+ total energy  tote= -0.1010972444768452D+04
+  ekin=     0.2671084505732102D+03
+  eloc=    -0.1032095221710865D+03
+  ehtr=     0.1554121721646313D+03
+  eexc=    -0.2386599316611455D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5987422689017620D+03
+  eloc1=   -0.1342136686725707D+04
+  ehtr1=    0.3675850413085734D+03
+  exc1=    -0.5488132645493860D+03
+  ekins1=   0.2511485924854467D+03
+  elocs1=  -0.1134003811837898D+04
+  ehtrs1=   0.3737664011824035D+03
+  excs1=   -0.2120526872709010D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm = -0.1287D-03  0.0000D+00 at ina=  24  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm = -0.1219D-03  0.0000D+00 at ina=  47  ii=  1  jj=  1  isp= 1
+ 3rd max of rhoijm = -0.1080D-03  0.0000D+00 at ina=  48  ii=  1  jj=  1  isp= 1
+
+ out    14  0.37584803E-05  0.39218755E-05  0.12869224E-03
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.97244476845       3.135462038304659E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =          14
+ residual charge  distf2=  0.14664058D-04
+                  distf1=  0.13543711D-04
+                  distf0=  0.39218755D-05
+ Pulay mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****        151.009sec
+
+ loopo=  15  ( Blocked-Davidson method )
+ loopo =          15  ik =           1
+
+ max change of ene  denemax=  0.2946671752424024D-04
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.29306754D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.29120955D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.28702244D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.28115934D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.26790206D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.26260941D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.19153811D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.19676374D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.31759708D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.32465755D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.33185280D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.25477843D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.11823554D+01
+ Energy gap is  0.37301397D+01  (eV)
+ 
+ total energy  tote= -0.1010972445131991D+04
+  ekin=     0.2671107638513103D+03
+  eloc=    -0.1032107772221531D+03
+  ehtr=     0.1554103395130773D+03
+  eexc=    -0.2386607524018262D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5987483584325809D+03
+  eloc1=   -0.1342148384974460D+04
+  ehtr1=    0.3675916596547756D+03
+  exc1=    -0.5488143863866835D+03
+  ekins1=   0.2511517659687734D+03
+  elocs1=  -0.1134014391729313D+04
+  ehtrs1=   0.3737732212532321D+03
+  excs1=   -0.2120538079443341D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm = -0.1112D-03  0.0000D+00 at ina=  24  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm = -0.1061D-03  0.0000D+00 at ina=  47  ii=  1  jj=  1  isp= 1
+ 3rd max of rhoijm = -0.9696D-04  0.0000D+00 at ina=  48  ii=  1  jj=  1  isp= 1
+
+ out    15  0.10608814E-05  0.30036867E-05  0.11116380E-03
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.97244513199       3.137138865840261E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =          15
+ residual charge  distf2=  0.13543711D-04
+                  distf1=  0.39218755D-05
+                  distf0=  0.30036867D-05
+ Pulay mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****        161.108sec
+
+ loopo=  16  ( Blocked-Davidson method )
+ loopo =          16  ik =           1
+
+ max change of ene  denemax=  0.5980327183263690D-04
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.29304279D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.29118640D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.28694818D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.28105834D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.26790143D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.26254587D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.19152556D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.19677331D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.31749545D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.32457628D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.33179923D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.25466344D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.11823459D+01
+ Energy gap is  0.37289804D+01  (eV)
+ 
+ total energy  tote= -0.1010972445009782D+04
+  ekin=     0.2671080387275189D+03
+  eloc=    -0.1032091097634761D+03
+  ehtr=     0.1554127114191216D+03
+  eexc=    -0.2386597380888927D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5987399372170120D+03
+  eloc1=   -0.1342133737066554D+04
+  ehtr1=    0.3675835560915983D+03
+  exc1=    -0.5488130064862048D+03
+  ekins1=   0.2511475343051492D+03
+  elocs1=  -0.1134001326891999D+04
+  ehtrs1=   0.3737648486642851D+03
+  excs1=   -0.2120524370677825D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm =  0.6563D-04  0.0000D+00 at ina=   5  ii=  3  jj=  3  isp= 1
+ 2nd max of rhoijm =  0.6563D-04  0.0000D+00 at ina=   5  ii=  7  jj=  7  isp= 1
+ 3rd max of rhoijm =  0.6305D-04  0.0000D+00 at ina=   6  ii=  5  jj=  5  isp= 1
+
+ out    16  0.12907557E-05  0.26793953E-05  0.65629903E-04
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.97244500978       3.141364575961325E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =          16
+ residual charge  distf2=  0.39218755D-05
+                  distf1=  0.30036867D-05
+                  distf0=  0.26793953D-05
+ Pulay mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****        171.226sec
+
+ loopo=  17  ( Blocked-Davidson method )
+ loopo =          17  ik =           1
+
+ max change of ene  denemax=  0.3759345710985240D-04
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.29309151D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.29123559D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.28696428D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.28105721D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.26796663D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.26256894D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.19147990D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.19674226D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.31739797D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.32448602D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.33173136D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.25465480D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.11819757D+01
+ Energy gap is  0.37285237D+01  (eV)
+ 
+ total energy  tote= -0.1010972445258487D+04
+  ekin=     0.2671100825649618D+03
+  eloc=    -0.1032102679980890D+03
+  ehtr=     0.1554108733175725D+03
+  eexc=    -0.2386604658223355D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5987464277003668D+03
+  eloc1=   -0.1342144511514655D+04
+  ehtr1=    0.3675891142739792D+03
+  exc1=    -0.5488140419970820D+03
+  ekins1=   0.2511506085330720D+03
+  elocs1=  -0.1134010586962792D+04
+  ehtrs1=   0.3737705873882556D+03
+  excs1=   -0.2120534312255828D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm =  0.2560D-04  0.0000D+00 at ina=  24  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm =  0.2266D-04  0.0000D+00 at ina=  35  ii=  1  jj=  1  isp= 1
+ 3rd max of rhoijm =  0.2183D-04  0.0000D+00 at ina=  36  ii=  1  jj=  1  isp= 1
+
+ out    17  0.85498815E-06  0.10609210E-05  0.25599516E-04
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.97244525849       3.141682172583475E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =          17
+ residual charge  distf2=  0.30036867D-05
+                  distf1=  0.26793953D-05
+                  distf0=  0.10609210D-05
+ Pulay mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****        181.307sec
+
+ loopo=  18  ( Blocked-Davidson method )
+ loopo =          18  ik =           1
+
+ max change of ene  denemax=  0.2284676268715646D-04
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.29309084D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.29123477D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.28694153D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.28102244D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.26797655D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.26255100D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.19147197D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.19674510D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.31735832D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.32445175D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.33170959D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.25461467D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.11819509D+01
+ Energy gap is  0.37280976D+01  (eV)
+ 
+ total energy  tote= -0.1010972445287332D+04
+  ekin=     0.2671100644950738D+03
+  eloc=    -0.1032102313616312D+03
+  ehtr=     0.1554109193054028D+03
+  eexc=    -0.2386604561577249D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5987461642409409D+03
+  eloc1=   -0.1342144312952955D+04
+  ehtr1=    0.3675890653731582D+03
+  exc1=    -0.5488140309501798D+03
+  ekins1=   0.2511504978793880D+03
+  elocs1=  -0.1134010459547440D+04
+  ehtrs1=   0.3737705333141166D+03
+  excs1=   -0.2120534224169015D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm =  0.1867D-04  0.0000D+00 at ina=  24  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm =  0.1862D-04  0.0000D+00 at ina=  36  ii=  1  jj=  1  isp= 1
+ 3rd max of rhoijm =  0.1662D-04  0.0000D+00 at ina=  29  ii=  1  jj=  1  isp= 1
+
+ out    18  0.24050706E-06  0.77133060E-06  0.18670839E-04
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.97244528733       3.143156918829382E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =          18
+ residual charge  distf2=  0.26793953D-05
+                  distf1=  0.10609210D-05
+                  distf0=  0.77133060D-06
+ Pulay mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****        191.387sec
+
+ loopo=  19  ( Blocked-Davidson method )
+ loopo =          19  ik =           1
+
+ max change of ene  denemax=  0.3929774729349855D-04
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.29307976D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.29122393D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.28689694D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.28095885D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.26798227D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.26251374D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.19147139D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.19676264D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.31732852D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.32443663D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.33171408D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.25454327D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.11820347D+01
+ Energy gap is  0.37274674D+01  (eV)
+ 
+ total energy  tote= -0.1010972445273932D+04
+  ekin=     0.2671095776950435D+03
+  eloc=    -0.1032099803758129D+03
+  ehtr=     0.1554113388600285D+03
+  eexc=    -0.2386602867002810D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5987447541627180D+03
+  eloc1=   -0.1342141804399697D+04
+  ehtr1=    0.3675877498240615D+03
+  exc1=    -0.5488137802507553D+03
+  ekins1=   0.2511498301602755D+03
+  elocs1=  -0.1134008289902790D+04
+  ehtrs1=   0.3737691786143362D+03
+  excs1=   -0.2120531828328370D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm =  0.1052D-04  0.0000D+00 at ina=  30  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm = -0.9530D-05  0.0000D+00 at ina=  26  ii=  1  jj=  1  isp= 1
+ 3rd max of rhoijm = -0.8702D-05  0.0000D+00 at ina=  27  ii=  1  jj=  1  isp= 1
+
+ out    19  0.37431341E-06  0.54052171E-06  0.10524930E-04
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.97244527393       3.145780741754334E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =          19
+ residual charge  distf2=  0.10609210D-05
+                  distf1=  0.77133060D-06
+                  distf0=  0.54052171D-06
+ Pulay mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****        201.508sec
+
+ loopo=  20  ( Blocked-Davidson method )
+ loopo =          20  ik =           1
+
+ max change of ene  denemax=  0.5794970385109011D-05
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.29308245D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.29122643D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.28689311D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.28095146D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.26798799D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.26251141D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.19146913D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.19676360D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.31731557D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.32442446D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.33170559D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.25453449D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.11820296D+01
+ Energy gap is  0.37273745D+01  (eV)
+ 
+ total energy  tote= -0.1010972445296060D+04
+  ekin=     0.2671098051858593D+03
+  eloc=    -0.1032101258399933D+03
+  ehtr=     0.1554111330846216D+03
+  eexc=    -0.2386603723080962D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5987454936681153D+03
+  eloc1=   -0.1342143044052293D+04
+  ehtr1=    0.3675884267818597D+03
+  exc1=    -0.5488138952153572D+03
+  ekins1=   0.2511501975099278D+03
+  elocs1=  -0.1134009390958145D+04
+  ehtrs1=   0.3737698791367519D+03
+  excs1=   -0.2120532971380124D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm = -0.1405D-04  0.0000D+00 at ina=  24  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm = -0.1120D-04  0.0000D+00 at ina=  24  ii=  3  jj=  3  isp= 1
+ 3rd max of rhoijm = -0.1120D-04  0.0000D+00 at ina=  24  ii=  7  jj=  7  isp= 1
+
+ out    20  0.17303583E-06  0.20410568E-06  0.14045313E-04
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.97244529606       3.146103525406348E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =          20
+ residual charge  distf2=  0.77133060D-06
+                  distf1=  0.54052171D-06
+                  distf0=  0.20410568D-06
+ Pulay mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****        211.630sec
+
+ loopo=  21  ( Blocked-Davidson method )
+ loopo =          21  ik =           1
+
+ max change of ene  denemax=  0.3094192359220926D-05
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.29308187D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.29122573D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.28688980D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.28094661D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.26798867D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.26250871D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.19147021D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.19676611D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.31731062D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.32441923D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.33170225D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.25452894D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.11820488D+01
+ Energy gap is  0.37273382D+01  (eV)
+ 
+ total energy  tote= -0.1010972445303132D+04
+  ekin=     0.2671099034600676D+03
+  eloc=    -0.1032101886138790D+03
+  ehtr=     0.1554110503633842D+03
+  eexc=    -0.2386604101704973D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5987457880891850D+03
+  eloc1=   -0.1342143582136106D+04
+  ehtr1=    0.3675887371061355D+03
+  exc1=    -0.5488139453004984D+03
+  ekins1=   0.2511503506907299D+03
+  elocs1=  -0.1134009882443416D+04
+  ehtrs1=   0.3737701998221793D+03
+  excs1=   -0.2120533480188215D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm = -0.1016D-04  0.0000D+00 at ina=  24  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm = -0.8038D-05  0.0000D+00 at ina=  47  ii=  1  jj=  1  isp= 1
+ 3rd max of rhoijm = -0.7940D-05  0.0000D+00 at ina=  24  ii=  7  jj=  7  isp= 1
+
+ out    21  0.69611282E-07  0.15420591E-06  0.10160069E-04
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.97244530313       3.146307378433044E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =          21
+ residual charge  distf2=  0.54052171D-06
+                  distf1=  0.20410568D-06
+                  distf0=  0.15420591D-06
+ Pulay mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****        221.764sec
+
+ loopo=  22  ( Blocked-Davidson method )
+ loopo =          22  ik =           1
+
+ max change of ene  denemax=  0.2719422954711170D-05
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.29307836D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.29122226D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.28688499D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.28094100D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.26798594D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.26250416D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.19147337D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.19677011D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.31731034D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.32441874D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.33170281D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.25452291D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.11820852D+01
+ Energy gap is  0.37273143D+01  (eV)
+ 
+ total energy  tote= -0.1010972445299092D+04
+  ekin=     0.2671098080447371D+03
+  eloc=    -0.1032101390779306D+03
+  ehtr=     0.1554111355823190D+03
+  eexc=    -0.2386603759410700D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5987455258321277D+03
+  eloc1=   -0.1342143099854968D+04
+  ehtr1=    0.3675884739461439D+03
+  exc1=    -0.5488138957931719D+03
+  ekins1=   0.2511502245716640D+03
+  elocs1=  -0.1134009453023135D+04
+  ehtrs1=   0.3737699284082194D+03
+  excs1=   -0.2120532999697218D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm = -0.1765D-05  0.0000D+00 at ina=  24  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm = -0.1735D-05  0.0000D+00 at ina=  47  ii=  1  jj=  1  isp= 1
+ 3rd max of rhoijm = -0.1526D-05  0.0000D+00 at ina=  23  ii=  1  jj=  1  isp= 1
+
+ out    22  0.39517584E-07  0.64292282E-07  0.17649126E-05
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.97244529909       3.146528996532472E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =          22
+ residual charge  distf2=  0.20410568D-06
+                  distf1=  0.15420591D-06
+                  distf0=  0.64292282D-07
+ Pulay mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****        231.870sec
+
+ loopo=  23  ( Blocked-Davidson method )
+ loopo =          23  ik =           1
+
+ max change of ene  denemax=  0.5438812927804904D-06
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.29307738D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.29122129D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.28688405D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.28094006D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.26798502D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.26250320D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.19147472D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.19677151D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.31731034D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.32441800D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.33170230D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.25452188D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.11820993D+01
+ Energy gap is  0.37273181D+01  (eV)
+ 
+ total energy  tote= -0.1010972445299972D+04
+  ekin=     0.2671097980672307D+03
+  eloc=    -0.1032101378815980D+03
+  ehtr=     0.1554111420521190D+03
+  eexc=    -0.2386603734087046D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5987455218870676D+03
+  eloc1=   -0.1342143066256308D+04
+  ehtr1=    0.3675884544525118D+03
+  exc1=    -0.5488138913272051D+03
+  ekins1=   0.2511502224568943D+03
+  elocs1=  -0.1134009420553419D+04
+  ehtrs1=   0.3737699086308190D+03
+  excs1=   -0.2120532956994618D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm =  0.1434D-05  0.0000D+00 at ina=  24  ii=  3  jj=  3  isp= 1
+ 2nd max of rhoijm =  0.1434D-05  0.0000D+00 at ina=  24  ii=  7  jj=  7  isp= 1
+ 3rd max of rhoijm =  0.1371D-05  0.0000D+00 at ina=  35  ii=  3  jj=  3  isp= 1
+
+ out    23  0.88151851E-08  0.37386495E-07  0.14340220E-05
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.97244529997       3.146566955605001E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =          23
+ residual charge  distf2=  0.15420591D-06
+                  distf1=  0.64292282D-07
+                  distf0=  0.37386495D-07
+ Pulay mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****        241.992sec
+
+ loopo=  24  ( Blocked-Davidson method )
+ loopo =          24  ik =           1
+
+ max change of ene  denemax=  0.5589815993412017D-06
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.29307740D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.29122133D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.28688458D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.28094088D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.26798487D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.26250362D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.19147502D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.19677152D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.31731016D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.32441698D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.33170122D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.25452273D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.11821010D+01
+ Energy gap is  0.37273283D+01  (eV)
+ 
+ total energy  tote= -0.1010972445301273D+04
+  ekin=     0.2671098101965541D+03
+  eloc=    -0.1032101477189270D+03
+  ehtr=     0.1554111295532118D+03
+  eexc=    -0.2386603790928899D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5987455689368301D+03
+  eloc1=   -0.1342143142252441D+04
+  ehtr1=    0.3675885004587076D+03
+  exc1=    -0.5488138986137882D+03
+  ekins1=   0.2511502468750277D+03
+  elocs1=  -0.1134009491376765D+04
+  ehtrs1=   0.3737699563849190D+03
+  excs1=   -0.2120533031649042D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm = -0.6208D-06  0.0000D+00 at ina=  30  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm = -0.4428D-06  0.0000D+00 at ina=  12  ii=  1  jj=  1  isp= 1
+ 3rd max of rhoijm =  0.4424D-06  0.0000D+00 at ina=  21  ii=  1  jj=  1  isp= 1
+
+ out    24  0.11603361E-07  0.22858460E-07  0.62083601E-06
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.97244530127       3.146535785429767E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =          24
+ residual charge  distf2=  0.64292282D-07
+                  distf1=  0.37386495D-07
+                  distf0=  0.22858460D-07
+ Pulay mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****        252.150sec
+
+ loopo=  25  ( Blocked-Davidson method )
+ loopo =          25  ik =           1
+
+ max change of ene  denemax=  0.2647204940808834D-06
+ sample of ene (in eV) and occ at ik=1
+ n= 123  ene= -0.29307704D+01  occb=  0.20000000D+01
+ n= 124  ene= -0.29122099D+01  occb=  0.20000000D+01
+ n= 125  ene= -0.28688448D+01  occb=  0.20000000D+01
+ n= 126  ene= -0.28094093D+01  occb=  0.20000000D+01
+ n= 127  ene= -0.26798444D+01  occb=  0.20000000D+01
+ n= 128  ene= -0.26250347D+01  occb=  0.20000000D+01
+ n= 129  ene=  0.19147538D+01  occb=  0.00000000D+00
+ n= 130  ene=  0.19677176D+01  occb=  0.00000000D+00
+ n= 131  ene=  0.31731019D+01  occb=  0.00000000D+00
+ n= 132  ene=  0.32441651D+01  occb=  0.00000000D+00
+ n= 133  ene=  0.33170079D+01  occb=  0.00000000D+00
+ check of highest band is OK
+ valence band maximum
+   ik=  8  ib= 128  VBM= -0.25452279D+01
+ conduction band minimum
+   ik=  8  ib= 129  CBM=  0.11821040D+01
+ Energy gap is  0.37273319D+01  (eV)
+ 
+ total energy  tote= -0.1010972445300700D+04
+  ekin=     0.2671097975688672D+03
+  eloc=    -0.1032101414527787D+03
+  ehtr=     0.1554111401950207D+03
+  eexc=    -0.2386603750498724D+03
+  eewa=    -0.8881424780502530D+03
+  ekin1=    0.5987455339230469D+03
+  eloc1=   -0.1342143080634250D+04
+  ehtr1=    0.3675884719132993D+03
+  exc1=    -0.5488138929582994D+03
+  ekins1=   0.2511502304721023D+03
+  elocs1=  -0.1134009438835607D+04
+  ehtrs1=   0.3737699268575537D+03
+  excs1=   -0.2120532977385685D+03
+  ebry=     0.0000000000000000D+00
+  efld=     0.0000000000000000D+00
+  eplusu=   0.0000000000000000D+00
+
+ 1st max of rhoijm =  0.4017D-06  0.0000D+00 at ina=  24  ii=  1  jj=  1  isp= 1
+ 2nd max of rhoijm =  0.3485D-06  0.0000D+00 at ina=  47  ii=  1  jj=  1  isp= 1
+ 3rd max of rhoijm = -0.1919D-06  0.0000D+00 at ina=  44  ii=  5  jj=  5  isp= 1
+
+ out    25  0.69551067E-08  0.10746383E-07  0.40167748E-06
+ mag  0.000000000000000E+000  0.000000000000000E+000
+ tot  -1010.97244530070       3.146533595487859E-002
+ input of mixing parameter
+ kerker_apre=  0.400000
+ kerker_g0sq=  0.500000
+ kerker_amixmin=  0.000010
+ pulay_apre=   0.400000
+ pulay_g0sq=   0.500000
+ pulay_amixmin=  0.000010
+ dth= 0.100000D-07
+ dth_mode=  1
+ ipulaycount =          25
+ residual charge  distf2=  0.37386495D-07
+                  distf1=  0.22858460D-07
+                  distf0=  0.10746383D-07
+ Pulay mixing
+ totele,rhosum =   256.000000000000        256.000000000000     
+                                               elapsed *****        262.310sec
+ ionic radius for ika=  1      1.500000
+ ionic radius for ika=  2      1.900000
+ total sum of atomic charge =  0.1829D+03
+ total sum of electrons     =  0.2560D+03
+ atomic charge analysis
+           1   4.94048124930346       0.000000000000000E+000
+           2   4.91791351789668       0.000000000000000E+000
+           3   4.90452020907726       0.000000000000000E+000
+           4   4.92417754684190       0.000000000000000E+000
+           5   1.61455640335830       0.000000000000000E+000
+           6   1.61884234861632       0.000000000000000E+000
+           7   4.92555962494670       0.000000000000000E+000
+           8   4.90045607722498       0.000000000000000E+000
+           9   4.93250003104653       0.000000000000000E+000
+          10   4.92721857188815       0.000000000000000E+000
+          11   1.55977373301705       0.000000000000000E+000
+          12   1.58123056812393       0.000000000000000E+000
+          13   4.90761699803852       0.000000000000000E+000
+          14   4.91636385129312       0.000000000000000E+000
+          15   4.92299245435853       0.000000000000000E+000
+          16   4.93525174542862       0.000000000000000E+000
+          17   1.58123688309197       0.000000000000000E+000
+          18   1.57783825912297       0.000000000000000E+000
+          19   4.90822746441190       0.000000000000000E+000
+          20   4.91741363739789       0.000000000000000E+000
+          21   4.89821012283678       0.000000000000000E+000
+          22   4.92710647220102       0.000000000000000E+000
+          23   1.59204157947829       0.000000000000000E+000
+          24   1.59771584198446       0.000000000000000E+000
+          25   4.93404095327897       0.000000000000000E+000
+          26   4.89324033796915       0.000000000000000E+000
+          27   4.91126908666503       0.000000000000000E+000
+          28   4.91952910594707       0.000000000000000E+000
+          29   1.60431290929872       0.000000000000000E+000
+          30   1.54599821443239       0.000000000000000E+000
+          31   4.92733023405527       0.000000000000000E+000
+          32   4.91262038585788       0.000000000000000E+000
+          33   4.89790265645224       0.000000000000000E+000
+          34   4.93697575320927       0.000000000000000E+000
+          35   1.60609165316592       0.000000000000000E+000
+          36   1.61047204381721       0.000000000000000E+000
+          37   4.89940883455600       0.000000000000000E+000
+          38   4.92548469868676       0.000000000000000E+000
+          39   4.90994787772357       0.000000000000000E+000
+          40   4.94076206362158       0.000000000000000E+000
+          41   1.61670755706710       0.000000000000000E+000
+          42   1.57892812273372       0.000000000000000E+000
+          43   4.91397750241366       0.000000000000000E+000
+          44   4.92590738881346       0.000000000000000E+000
+          45   4.91645685174189       0.000000000000000E+000
+          46   4.92828395435285       0.000000000000000E+000
+          47   1.59109845156074       0.000000000000000E+000
+          48   1.61993850973394       0.000000000000000E+000
+ nvoronoi =          12
+           1 dist,area   5.69480744318406       1.090456318616490E-002
+           2 dist,area   5.69480744318406       1.090456318616490E-002
+           3 dist,area   5.69480744318406       1.090456318616490E-002
+           4 dist,area   5.69480744318406       1.090456318616490E-002
+           5 dist,area   5.69456404838441       1.090130167209813E-002
+           6 dist,area   5.69456404838441       1.090130167209813E-002
+           7 dist,area   5.69456404838441       1.090130167209814E-002
+           8 dist,area   5.69456404838441       1.090130167209813E-002
+           9 dist,area   5.69456404838441       1.090130167209813E-002
+          10 dist,area   5.69456404838441       1.090130167209814E-002
+          11 dist,area   5.69456404838441       1.090130167209813E-002
+          12 dist,area   5.69456404838441       1.090130167209814E-002
+ number of regions =      71
+ total sum of Bader charge  =  0.2560D+03
+ total sum of electrons     =  0.2560D+03
+ Bader charge analysis
+           1   7.50559839045860       0.000000000000000E+000
+           2   7.50322401851973       0.000000000000000E+000
+           3   7.50279321022764       0.000000000000000E+000
+           4   7.50479229412292       0.000000000000000E+000
+           5  0.988261668239563       0.000000000000000E+000
+           6  0.987680186280515       0.000000000000000E+000
+           7   7.50196544668061       0.000000000000000E+000
+           8   7.50139801074148       0.000000000000000E+000
+           9   7.50482373983447       0.000000000000000E+000
+          10   7.50376158609154       0.000000000000000E+000
+          11   1.00037908293621       0.000000000000000E+000
+          12  0.994112534499642       0.000000000000000E+000
+          13   7.50231626831323       0.000000000000000E+000
+          14   7.50288029599891       0.000000000000000E+000
+          15   7.50424400910382       0.000000000000000E+000
+          16   7.50338022689857       0.000000000000000E+000
+          17  0.996246632505651       0.000000000000000E+000
+          18  0.995643540731616       0.000000000000000E+000
+          19   7.50278108589492       0.000000000000000E+000
+          20   7.50385913622513       0.000000000000000E+000
+          21   7.50185980977627       0.000000000000000E+000
+          22   7.50300787496084       0.000000000000000E+000
+          23  0.993556723649567       0.000000000000000E+000
+          24  0.993883389145812       0.000000000000000E+000
+          25   7.50342708932522       0.000000000000000E+000
+          26   7.49811293950334       0.000000000000000E+000
+          27   7.50123558102871       0.000000000000000E+000
+          28   7.50243369256568       0.000000000000000E+000
+          29  0.990050092638445       0.000000000000000E+000
+          30   1.00428566069162       0.000000000000000E+000
+          31   7.50392909787538       0.000000000000000E+000
+          32   7.50439525476700       0.000000000000000E+000
+          33   7.50112538599180       0.000000000000000E+000
+          34   7.50535461580580       0.000000000000000E+000
+          35  0.991507983122577       0.000000000000000E+000
+          36  0.990316826080661       0.000000000000000E+000
+          37   7.50096172028620       0.000000000000000E+000
+          38   7.50367903934712       0.000000000000000E+000
+          39   7.50244245760740       0.000000000000000E+000
+          40   7.50418200664281       0.000000000000000E+000
+          41  0.989945193350971       0.000000000000000E+000
+          42  0.996020490987756       0.000000000000000E+000
+          43   7.50399548345069       0.000000000000000E+000
+          44   7.50698813507803       0.000000000000000E+000
+          45   7.50483795013457       0.000000000000000E+000
+          46   7.50444460440030       0.000000000000000E+000
+          47  0.994770021369257       0.000000000000000E+000
+          48  0.989033497752835       0.000000000000000E+000
+ *** ( p_scf e_time   )  time=  268.024251 sec
+
+                                               elapsed *****        276.756sec
+
+ calculation of atomic forces
+ atom    Fx          Fy          Fz
+ ------------------------------------------
+    1    0.4745D-02  0.6426D-03  0.2730D-02
+    2    0.1046D-01  0.1094D-01 -0.6821D-02
+    3   -0.3675D-03  0.1685D-02 -0.3206D-04
+    4    0.6585D-02 -0.7189D-02  0.7637D-03
+    5   -0.1312D-01 -0.1510D-01 -0.1757D-02
+    6   -0.9212D-02  0.1127D-01  0.9371D-02
+    7   -0.7449D-02  0.7826D-03  0.3569D-02
+    8   -0.1721D-03 -0.1304D-02  0.2920D-02
+    9    0.7441D-02 -0.1103D-01 -0.1275D-01
+   10   -0.3893D-02  0.2923D-02  0.1052D-02
+   11    0.5442D-02 -0.2085D-01 -0.5831D-02
+   12    0.1212D-01  0.1128D-01 -0.7260D-02
+   13    0.8000D-02  0.6269D-02  0.5753D-02
+   14   -0.5831D-02 -0.6119D-02  0.1598D-02
+   15    0.1553D-02 -0.5901D-02 -0.1694D-02
+   16    0.2172D-03  0.1288D-02  0.2049D-02
+   17   -0.1176D-02 -0.7759D-02  0.7195D-02
+   18   -0.1061D-01  0.7771D-02 -0.1526D-01
+   19   -0.4862D-02 -0.2908D-02 -0.1911D-02
+   20    0.4090D-02  0.7374D-02 -0.4183D-02
+   21   -0.5876D-03  0.5533D-02  0.2313D-04
+   22    0.5447D-02 -0.2335D-02  0.7077D-04
+   23    0.1748D-01 -0.5670D-03  0.7848D-02
+   24   -0.1484D-01  0.2321D-02  0.2473D-02
+   25   -0.1643D-02 -0.4102D-02 -0.1843D-02
+   26   -0.1088D-01 -0.1190D-01  0.6275D-02
+   27    0.7331D-02 -0.7415D-02 -0.3571D-02
+   28   -0.1588D-01  0.6688D-02 -0.1386D-01
+   29    0.1043D-01 -0.1880D-01 -0.2223D-02
+   30    0.1843D-01  0.2393D-01  0.6724D-02
+   31   -0.4902D-02 -0.2465D-02 -0.8011D-02
+   32   -0.4186D-02  0.1552D-02  0.3579D-02
+   33   -0.7770D-02  0.9563D-02  0.4750D-02
+   34    0.1278D-02  0.2092D-02  0.3093D-02
+   35   -0.1400D-01  0.3306D-02  0.1521D-01
+   36   -0.1005D-02  0.1233D-01 -0.1852D-02
+   37    0.9503D-02  0.6133D-02  0.4179D-02
+   38   -0.2155D-02 -0.1716D-03 -0.2950D-03
+   39    0.3219D-03 -0.5825D-03 -0.4370D-02
+   40   -0.1908D-02  0.1086D-02 -0.4047D-03
+   41    0.1079D-01  0.2052D-02  0.1500D-01
+   42   -0.2010D-01  0.2793D-02 -0.4197D-02
+   43   -0.5269D-02  0.5095D-02 -0.4284D-03
+   44    0.8540D-03  0.3864D-02 -0.2808D-02
+   45   -0.2009D-02  0.2777D-02 -0.2978D-02
+   46    0.1438D-01 -0.5758D-02  0.9691D-02
+   47    0.1824D-01 -0.1689D-01 -0.4390D-02
+   48   -0.1131D-01 -0.4215D-02 -0.7180D-02
+ ------------------------------------------
+  sum    0.1087D-04 -0.1059D-04  0.5862D-05
+ ------------------------------------------
+ fmax=  0.0000000000000000D+00  atom=  0  fth2=  0.3388521209228746D-06
+
+ fmax is for atoms to be moved
+
+                                               elapsed *****        280.057sec
+ *** ( total e_time   )  time=  280.057208 sec
+
+ ===================================================
+ === successfully end! (qmas_band v.117) o(^o^)o ===
+ ===================================================
+Application 333287 resources: utime ~15478s, stime ~210s, Rss ~1655692, inblocks ~68952, outblocks ~1385408
