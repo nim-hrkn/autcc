@@ -6,14 +6,29 @@ import re
 import shutil
 #---------------------
 
+from keyvalue import apply_keyvalue
+
+qmas_inputfile="input_scf.txt"
+qmas_outputfile="output_scf.txt"
+
+class QmasInInfo:
+    def __init__(self):
+	x=0
+    def apply(self,inputpath,senariofile,outputpath):
+	input=inputpath+"/"+qmas_inputfile
+	output=outputpath+"/"+qmas_inputfile
+        r= apply_keyvalue (input,senariofile,output)
+        print output, " is changed."
+	
+
 class QmasOutInfo:
     def __init__(self,path,fullpath=0):
         self.lastiter=0
         self.successoutput=0
         self.cdiff=-999
         self.nscf=-999
-        self.input="input_scf.txt"
-        self.output="output_scf.txt"
+        #self.input="input_scf.txt"
+        self.output=qmas_outputfile
 
 	if fullpath==1:
 		filename=path
