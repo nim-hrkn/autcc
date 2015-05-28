@@ -208,4 +208,24 @@ $ ls calcdata/
 ID.1 is made. The input files are made using senario/metal1\_1 parameter.
 ...
 
+\appendix
+\section{definitions}
+
+In db11.py
+\begin{verbatim}
+DBNAME_define      = "materialdata"
+SENARIODIR_define  = "senario"
+INPUTDIR_define    = "inputdata"
+TEMPORARYDIR_define= "calcdata"
+MATERIALKIND_define= "metal1"
+DBFILE_define      = "rundata.sqlite3"
+\end{verbatim}
+
+In QmasOutInfo.py
+\begin{verbatim}
+qmas_inputfile="input_scf.txt"
+qmas_outputfile="output_scf.txt"
+\end{verbatim}
+QmasOutInfo.py also determies whether the SCF is achieved from the output file.
+
 \end{document}
