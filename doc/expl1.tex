@@ -228,4 +228,14 @@ qmas_outputfile="output_scf.txt"
 \end{verbatim}
 QmasOutInfo.py also defines the code whether the SCF is achieved from the output file, and how the input is changed accoding to the senario file.
 
+\section{rsync}
+send
+\begin{verbatim}
+rsync -auz -e ssh  * kyotoD:large/QMAS/SiO2_lda.supercell.rand.slot2/Batch06
+\end{verbatim}
+recv
+\begin{verbatim}
+rsync -auz -e ssh kyotoD:large/QMAS/SiO2_lda.supercell.rand.slot2/batch01/ .
+\end{verbatim}
+
 \end{document}
