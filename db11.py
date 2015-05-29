@@ -549,15 +549,16 @@ if not info.mode in ("createdb","history"):
 
 if info.mode=="init":
 	filelist=[]
-	for n in info.inputdir:
+	for n in info.inputdir:       #  directory list
 		filelist.extend(yield_PathList(n))
-	db.add(filelist)
+	db.add(filelist)              #  .IDがあるdirectoryのみ処理。
+
 
 elif info.mode=="createdb":
-	db.createdb()
+	db.createdb()                 # DBをつくるだけ。
 
 elif info.mode=="send":
-    result=db.get_list_status_is("new","idle")
+    result=db.get_list_status_is("new","idle")  #  DBstatusがこの場合にのみ処理
     if len(result)==0:
 	print "nothing to do"
     else:
@@ -565,12 +566,12 @@ elif info.mode=="send":
     for n in result:
 	if debug_print>0:
 		print n.hash,n.path
-	cinfo=CombiInfo(n,info)
-        odir=cinfo.temporarypath()
+	cinfo=CombiInfo(n,info)  # 後のためにn=result とinfo があるclassをつくるだけ。
+        odir=cinfo.temporarypath() 
 	if debug_print>0:
 		print "temporarydir=",odir
 
-	cinfo.file_copy_to_temporarypath()
+	cinfo.file_copy_to_temporarypath() # directory毎copy
 
 	#dbrow=DBdef(dbstatus='submitted',execstatus='idle',time_send='now',time_last="now")
 	#dbwhere=DBdef(hash=n.hash)
@@ -579,79 +580,79 @@ elif info.mode=="send":
 
         #inputfile="input_scf.txt"
 	#input= n.path+"/"+inputfile
-        senariofile=info.senariodir+"/"+n.mat+"_"+str(n.count)
+        senariofile=info.senariodir+"/"+n.mat+"_"+str(n.count)  #senario fileを読む
 	#output=odir+"/"+inputfile
         #print "input=",input,"senario=",senariofile,"output=",output
 	#r= apply_keyvalue (input,senariofile,output)
 	#print output, " is changed."
-	changefunc=QmasInInfo()
-	changefunc.apply(n.path,senariofile,odir)
+	changefunc=QmasInInfo()                         # QMASの場合のsenario fileを使って書き換えるclassをの定義
+	changefunc.apply(n.path,senariofile,odir)       # 書き換えて、ファイルに書き出す。
 
-        dbrow=DBdef(dbstatus='submitted',execstatus='idle',time_send='now',time_last="now")
-        dbwhere=DBdef(hash=n.hash)
-        db.change_status(dbrow,dbwhere)
-        make_file(cinfo.execstatuspath(),"idle")
+        dbrow=DBdef(dbstatus='submitted',execstatus='idle',time_send='now',time_last="now")   # DB statusの定義
+        dbwhere=DBdef(hash=n.hash)      # hashの定義
+        db.change_status(dbrow,dbwhere)  # hashのstatusをdbrowの状態に変更
+        make_file(cinfo.execstatuspath(),"idle")   # .EXECSTATUS fileの作成、中身はidle
 
 
 elif info.mode=="updatestatus":
-        filelist=yield_all_files(info.temporarydir)
+        filelist=yield_all_files(info.temporarydir)   # temporarydirのすべてのファイルリスト, この場合はDBからで無くファイルからリストを作る
 	if isinstance(filelist,type(None)):
 		print "nothing to do"
 	else:
 	    for s in  filelist:
-		statusfile="/"+info.execstatusfile
+		statusfile="/"+info.execstatusfile    # .EXECSTATUSというファイルのみ処理をする。
 		n=len(statusfile)
 		s1=s[len(s)-n:len(s)]
 		if s1==statusfile:
 			if debug_print>0:
 				print "checking ",s
-			execstatus=read_file_content(s)
+			execstatus=read_file_content(s)   # 中身を読む。finishedかidleのはず。
 			path=s[:len(s)-n]
 			hashfile=path+"/"+".ID"
-			hash=read_file_content(hashfile)
-			count=int(path[-1:])
+			hash=read_file_content(hashfile)   # hashを読む
+			count=int(path[-1:])              # temporary directory= ID.countという名前のはず。
 			dbrow=DBdef(execstatus=execstatus,time_update='now',time_last="now")
 			dbwhere=DBdef(hash=hash,count=count)
-		        db.change_status(dbrow,dbwhere)
+		        db.change_status(dbrow,dbwhere)    # hash,countのDB rowの状態をexecstatusに変更
 
 
 
 elif info.mode=="recv":
-    result=db.get_list_status_is("submitted","finished")
+    result=db.get_list_status_is("submitted","finished")  # submitted,finishedの状態のみ処理
     if len(result)==0:
 	print "nothing to do"
     else:
 	print "process ",len(result),"directories"
     for n in result:
-	cinfo=CombiInfo(n,info)
-	result=QmasOutInfo(cinfo.temporarypath())
-	if result.success()==1:
+	cinfo=CombiInfo(n,info)                    # n=result,infoのobjectをつくる
+	result=QmasOutInfo(cinfo.temporarypath())  # QMAS outputを読んで収束したか判定
+	if result.success()==1:                    # 収束した
 		print "OK",n.path,n.hash,n.count
 		tdir=cinfo.temporarypath()
 		path=cinfo.resultpath()
-		cinfo.file_copy_to_resultpath()
-		dbrow=DBdef(dbstatus="calculated",execstatus="finished",time_recv="now",time_last="now")
+		cinfo.file_copy_to_resultpath()    # temporary pathからinputdirectoryへ戻す。ただし、directoryname.oという名前。
+		dbrow=DBdef(dbstatus="calculated",execstatus="finished",time_recv="now",time_last="now") 
 		dbwhere=DBdef(hash=n.hash)
-		db.change_status(dbrow,dbwhere)
-	else:
+		db.change_status(dbrow,dbwhere)    # DB rowを変更
+	else:                                      # 収束しなかった。
 		print "NG",n.path,n.hash,n.count
-		db.add_count(n.hash)
-		dbrow=DBdef(dbstatus="new",execstatus="idle",time_recv="now",time_last="now")
+		db.add_count(n.hash)               # count+=1
+		dbrow=DBdef(dbstatus="new",execstatus="idle",time_recv="now",time_last="now") 
 		dbwhere=DBdef(hash=n.hash)
-		db.change_status(dbrow,dbwhere)
+		db.change_status(dbrow,dbwhere)    # new,idleに、そして、 db?.py -send とすることになる。
 
 elif info.mode=="purge":
-    result=db.get_list_status_is("calculated","finished")
+    result=db.get_list_status_is("calculated","finished") # calculated,finishedを対象とする。
     if len(result)==0:
 	print "nothing to do"
     for n in result:
 	#print n.hash
 	cinfo=CombiInfo(n,info)
 	for i in range(0,n.count+1):
-		tdir=cinfo.temporarypath_with_count(i)
+		tdir=cinfo.temporarypath_with_count(i)   # directory名を取り出す。
 		if debug_print>0:
 			print "try deleting ",tdir
-		if os.path.exists(tdir):
+		if os.path.exists(tdir):                 # 存在していたらtemporary direcotryを消去
 			shutil.rmtree(tdir)
 
 elif info.mode=="status":
